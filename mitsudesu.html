@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html lang='ja'>
+    <head>
+        <meta charset='utf-8'>
+        <style type="text/css" >
+.button_wrapper{
+    text-align: center;
+}
+       .btn{
+           border-radius: 5px;
+           background-color: green;
+           padding: 20px;
+           text-align: center;
+           color: white;
+           height: 200px;
+           width:200px;
+           margin: 50px;
+       }
+        </style>
+        <title>密です</title>
+        <script type="text/javascript">
+            function audio_play(){
+                audio.play()
+            }
+        </script>
+    </head>
+    <body>
+        <audio id="audio">
+            <source src="mitsudesu.mp3">
+        </audio><br>
+        <div class="button_wrapper">
+            <input type="Button" class="btn" value="密です" onclick="audio_play()">
+        </div>
+    </body>
+</html>
+
